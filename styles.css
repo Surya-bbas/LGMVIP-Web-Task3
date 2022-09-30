@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(230,250,199);
+}
+
+.heading{
+    text-align: center;
+    padding: 20px;
+    color: rgba(188, 44, 31, 0.978);
+    
+}
+
+.da-form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.rhs{
+    
+    background-image: url('images/2844240.jpg');
+    padding-bottom: 20px;
+    
+    
+}
+
+.btn{
+    color: rgb(242, 245, 243);
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+
+.lhs{
+    
+    min-height: 50vh;
+    
+}
+
+#output{
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.image{
+    height: 180px;
+    width: 180px;
+    border: 1px solid rgb(227, 242, 244);
+    border-radius: 10%;
+}
+.heading2
+{
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent,rgb(35, 249, 138));
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent,rgb(6, 217, 196));
+}
